@@ -26,6 +26,7 @@ class PrintBook(Book):
     def __str__(self):
         return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
+
 class Library:
     def __init__(self):
         self.books = []
@@ -37,9 +38,9 @@ class Library:
         print("Library Catalog:")
         for book in self.books:
             print(book)
- # Uses the __str__ method
-from library_system import Book, EBook, PrintBook, Library
 
+
+# Main execution block
 def main():
     # Create a Library instance
     my_library = Library()
@@ -55,8 +56,8 @@ def main():
     my_library.add_book(paper_novel)
 
     # List all books in the library
-    print("Library Catalog:")
-    my_library.list_books()
+    my_library.display_books()
+
 
 if __name__ == "__main__":
     main()
