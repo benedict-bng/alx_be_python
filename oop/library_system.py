@@ -116,5 +116,7 @@ if __name__ == "__main__":
     print("Library Catalog:")
     print(library.list_books())
 Library Catalog:
-[Print Book] 'The Pragmatic Programmer' by Andy Hunt - 352 pages
-[E-Book] 'Automate the Boring Stuff' by Al Sweigart - 5MB
+Book: Pride and Prejudice by Jane Austen
+EBook: Snow Crash by Neal Stephenson, File Size: 500KB
+PrintBook: The Catcher in the Rye by J.D. Salinger, Page Count: 234
+
