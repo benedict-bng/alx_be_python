@@ -34,5 +34,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-The area of the Rectangle is: 50
-The area of the Circle is: 153.93804002589985
