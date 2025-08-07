@@ -115,3 +115,6 @@ if __name__ == "__main__":
     # Display all books
     print("Library Catalog:")
     print(library.list_books())
+Library Catalog:
+[Print Book] 'The Pragmatic Programmer' by Andy Hunt - 352 pages
+[E-Book] 'Automate the Boring Stuff' by Al Sweigart - 5MB
